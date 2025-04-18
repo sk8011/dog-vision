@@ -66,6 +66,8 @@ The notebook includes:
 
 ![sample](./output.png)
 
+<predicted_output> <prediction_accuracy> (<actual_output>)
+
 ## 👨‍💻 Author
 
 Made with ❤️ by @sk8011
