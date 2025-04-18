@@ -64,7 +64,7 @@ The notebook includes:
 
 ## 🐾 Sample Output
 
-![sample](docs/sample_prediction.png)
+![sample](./output.png)
 
 ## 👨‍💻 Author
 
