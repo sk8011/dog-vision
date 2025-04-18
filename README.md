@@ -14,7 +14,6 @@ The model is trained on a labeled dataset of dog images, processed with image au
 - 🔍 Predicts the **breed** of a dog from a PNG image
 - 📊 Shows **prediction confidence** and top 10 probable breeds
 - 🧠 Built with **TensorFlow**, **TensorFlow Hub**, and **Keras**
-- 🌐 Includes a **Streamlit frontend** for user-friendly uploads
 
 ## 🛠️ Tech Stack
 
@@ -22,7 +21,6 @@ The model is trained on a labeled dataset of dog images, processed with image au
 - TensorFlow / Keras
 - TensorFlow Hub
 - NumPy & Matplotlib
-- Streamlit (frontend)
 - Google Colab / Jupyter
 
 ## 📁 Directory Structure
@@ -32,30 +30,11 @@ dog-vision/
 │
 ├── dog_vision_mine.ipynb          # Main notebook: training and evaluation
 ├── model_full.h5                  # Final trained model
-├── app.py                         # Streamlit frontend to upload image & predict
 ├── requirements.txt               # Dependencies for deployment
 └── README.md                      # This file
 ```
 
 ## 🚀 How to Use
-
-### 🔧 Setup
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/your-username/dog-vision.git
-   cd dog-vision
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
 
 ## 📸 Upload a Dog Image
 
@@ -81,20 +60,12 @@ The notebook includes:
 - Loss curves
 - Sample prediction visualizations
 - Top-10 class confidence bar charts
-
-## 📦 Deployment
-
-- Compatible with **Streamlit Cloud**
-- Just upload your repo and set `app.py` as the main entry point
+  
 
 ## 🐾 Sample Output
 
 ![sample](docs/sample_prediction.png)
 
-## 📜 License
-
-MIT License
-
 ## 👨‍💻 Author
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by @sk8011
