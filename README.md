@@ -64,7 +64,7 @@ The notebook includes:
 
 ## 🐾 Sample Output
 
-![sample](./output.png)
+![sample](./output/output.png)
 
 <predicted_output> <prediction_accuracy> (<actual_output>)
 
