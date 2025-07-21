@@ -27,10 +27,10 @@ The model is trained on a labeled dataset of dog images, processed with image au
 
 ```
 dog-vision/
-│
-├── dog_vision_mine.ipynb          # Main notebook: training and evaluation
-├── model_full.h5                  # Final trained model
+├── dog_vision.ipynb               # Main notebook: training and evaluation
+├── model/model_full.h5            # Final trained model
 ├── requirements.txt               # Dependencies for deployment
+├── output/img.png                 # Results file
 └── README.md                      # This file
 ```
 
